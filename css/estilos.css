@@ -1,15 +1,16 @@
 :root {
   --cinza: #aaa;
-  --azul-claro: lightblue;
-  --azul-escuro: lightsteelblue;
-  --black: #403E40;
+  --azul-claro: #8B1FF8; /* cor clara usada nos botões */
+  --azul-escuro: #041832; /* cor escura usada na sombra dos botões */
+  --black: #000;
   --branca: #fff;
   --luz: rgb(229, 255, 0);
 }
 
 body {
+  background: url("/images/pattern.png"), linear-gradient(180deg, #8B1FF8 0%, #041832 48.44%, #01080E 100%);
+  background-size: cover;
   align-items: center;
-  background: linear-gradient(45deg, #b3d9ff 0%, #4682b4 100%);
   display: flex;
   justify-content: center;
   flex-direction: column;
