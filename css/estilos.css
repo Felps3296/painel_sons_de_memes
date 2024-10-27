@@ -4,7 +4,6 @@
   --azul-escuro: #041832; /* cor escura usada na sombra dos botões */
   --black: #000;
   --branca: #fff;
-  --luz: rgb(229, 255, 0);
 }
 
 body {
@@ -19,7 +18,7 @@ body {
 }
 
 h1 {
-  color: var(--black);
+  color: var(--branca);
   margin-bottom: 20px;
   font-size: 2rem;
 }
@@ -60,10 +59,10 @@ h1 {
 .tecla.focus,
 .tecla:focus {
   outline: none;
-  box-shadow: 1px 1px 10px var(--luz);
+  box-shadow: 1px 1px 10px var(--azul-claro);
 }
 
 .tecla.active:focus,
 .tecla:active:focus {
-  box-shadow: 3px 3px 0 var(--azul-escuro) inset, 1px 1px 10px var(--luz);
+  box-shadow: 3px 3px 0 var(--azul-escuro) inset, 1px 1px 10px var(--azul-claro);
 }
